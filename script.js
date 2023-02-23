@@ -6,5 +6,5 @@ document.addEventListener("click", function(event){
     document.body.appendChild(ball);
     setTimeout(function(){
         document.body.remove(ball);
-    }, 1000),
+    }, 1000);
 })
